@@ -70,7 +70,7 @@ namespace CSharpLessonWeekThreeHW
 
                 if (HiddenField1.Value == "User")
                 {
-                    lt1.Text = "使用者編號: ";
+                    lt1.Text = "使用者授權碼: ";
                     lt2.Text = "帳號: ";
                     lt3.Text = "名字: ";
                     lt4.Text = "電話號碼: ";

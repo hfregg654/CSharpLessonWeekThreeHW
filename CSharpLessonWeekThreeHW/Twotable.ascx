@@ -35,7 +35,7 @@
         <ItemTemplate>
             <div id="DBDataArea">
                 <asp:Literal ID="Literal1" runat="server"></asp:Literal>
-                <%# HiddenField1.Value=="User"?Eval("UserID"): Eval("ProjectID") %><br />
+                <%# HiddenField1.Value=="User"?Eval("License"): Eval("ProjectID") %><br />
                  <asp:Literal ID="Literal2" runat="server"></asp:Literal>
                 <%# HiddenField1.Value=="User"?Eval("Account"): Eval("ProjectName") %><br />
                 <asp:Literal ID="Literal3" runat="server"></asp:Literal>

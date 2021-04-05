@@ -105,8 +105,6 @@
     <Content Include="W3HWIndex.aspx" />
     <Content Include="W3HWUserAndProject.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebFormHW.aspx" />
-    <Content Include="WeekThreeHW.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBTool.cs" />
@@ -197,20 +195,6 @@
     </Compile>
     <Compile Include="W3HWUserAndProject.aspx.designer.cs">
       <DependentUpon>W3HWUserAndProject.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebFormHW.aspx.cs">
-      <DependentUpon>WebFormHW.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebFormHW.aspx.designer.cs">
-      <DependentUpon>WebFormHW.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WeekThreeHW.aspx.cs">
-      <DependentUpon>WeekThreeHW.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WeekThreeHW.aspx.designer.cs">
-      <DependentUpon>WeekThreeHW.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
