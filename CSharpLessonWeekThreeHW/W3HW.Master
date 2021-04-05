@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="W3HW.master.cs" Inherits="CSharpLessonWeekThreeHW.W3HW" %>
+
+<%@ Register Src="~/ucHeaderW3HW.ascx" TagPrefix="uc1" TagName="ucHeaderW3HW" %>
+<%@ Register Src="~/ucLeftW3HW.ascx" TagPrefix="uc1" TagName="ucLeftW3HW" %>
+<%@ Register Src="~/ucFooterW3HW.ascx" TagPrefix="uc1" TagName="ucFooterW3HW" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="assets/css/W3HWStyle.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:ucHeaderW3HW runat="server" id="ucHeaderW3HW" />
+        <div class="BlockArea">
+            <uc1:ucLeftW3HW runat="server" id="ucLeftW3HW" />
+            <div class="OnakaArea">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <uc1:ucFooterW3HW runat="server" id="ucFooterW3HW" />
+    </form>
+</body>
+</html>

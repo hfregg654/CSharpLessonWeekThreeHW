@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MCut.master.cs" Inherits="WeekThreeCut.MCut" %>
+
+<%@ Register Src="~/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hielo by TEMPLATED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <section class="banner full">
+            <article>
+                <img src="images/slide01.jpg" alt="" />
+                <div class="inner">
+                    <header>
+                        <p>
+                            <asp:Literal ID="LtPagep" runat="server">
+                            <a href="https://templated.co">TEMPLATED</a></asp:Literal>
+                        </p>
+                        <h2>
+                            <asp:Literal ID="LtPageh2" runat="server">Hielo</asp:Literal></h2>
+                    </header>
+                </div>
+            </article>
+            <article>
+                <img src="images/slide02.jpg" alt="" />
+                <div class="inner">
+                    <header>
+                        <p>Lorem ipsum dolor sit amet nullam feugiat</p>
+                        <h2>Magna etiam</h2>
+                    </header>
+                </div>
+            </article>
+            <article>
+                <img src="images/slide03.jpg" alt="" />
+                <div class="inner">
+                    <header>
+                        <p>Sed cursus aliuam veroeros lorem ipsum nullam</p>
+                        <h2>Tempus dolor</h2>
+                    </header>
+                </div>
+            </article>
+            <article>
+                <img src="images/slide04.jpg" alt="" />
+                <div class="inner">
+                    <header>
+                        <p>Adipiscing lorem ipsum feugiat sed phasellus consequat</p>
+                        <h2>Etiam feugiat</h2>
+                    </header>
+                </div>
+            </article>
+            <article>
+                <img src="images/slide05.jpg" alt="" />
+                <div class="inner">
+                    <header>
+                        <p>Ipsum dolor sed magna veroeros lorem ipsum</p>
+                        <h2>Lorem adipiscing</h2>
+                    </header>
+                </div>
+            </article>
+        </section>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+          <!-- Footer -->
+        <footer id="footer">
+            <uc1:ucFooter runat="server" ID="ucFooter" />
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </form>
+</body>
+</html>

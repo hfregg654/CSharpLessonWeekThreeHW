@@ -1,0 +1,42 @@
+﻿.BlockArea {
+    display: flex;
+    align-items: flex-start;
+}
+
+   /* .BlockArea div {
+        flex: 1;
+    }*/
+
+#WebName {
+    font-size: 4em;
+}
+
+.LogIna {
+    flex:1;
+    font-size: 1em;
+    text-align: right;
+    align-self: flex-end;
+    padding: 0em 3em 0em 0em;
+}
+
+.MenuArea {
+    width:30%;
+    font-size: 3em;
+}
+.OnakaArea {
+    flex: 1;
+    text-align: center;
+    border: 1em solid #000080;
+    padding: 1em 1em 1em 1em;
+}
+.FooterArea{
+
+}
+.DeclareArea {
+    flex: 1;
+    text-align: center;
+    align-self: flex-end;
+}
+#DBDataArea {
+    border: 1px solid gray;
+}
